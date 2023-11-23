@@ -162,7 +162,7 @@ justify-content:center;
 }
 
 #hero button{
-     background-image: url("/img/button.png");
+     background-image: url("../img/button.png");
      background-color: transparent;
      color: #088178;
      border: 0;
@@ -289,7 +289,7 @@ justify-content:center;
 
  }
  #banner{
-  background-image: url(/img/banner/b2.jpg);
+  background-image: url("../img/banner/b2.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -305,7 +305,7 @@ justify-content:center;
   font-size: 16px;
  }
  #banner h2{
-  color: #fff;
+  color: #000000;
   font-size: 30px;
   padding: 10px;
  }
@@ -328,7 +328,7 @@ justify-content:center;
 
  #sm-banner .banner-box{
 
-  background-image: url(/img/banner/b17.jpg);
+  background-image: url("../img/banner/b17.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -337,11 +337,12 @@ justify-content:center;
   height: 50vh;
   background-size: cover;
   background-position: center;
+  background-color: #000000;
   padding: 30px;
 
  }
  #sm-banner .banner-box:nth-child(2){
-  background-image: url(/img/banner/b10.jpg);
+  background-image: url("../img/banner/b10.jpg");
 
  }
 
@@ -370,9 +371,10 @@ justify-content:center;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap; 
+  
 }
  #banner3 .banner-box{
-  background-image: url(/img/banner/b7.jpg);
+  background-image: url("../img/banner/b7.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -383,14 +385,15 @@ justify-content:center;
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
+  background-color: #000000;
 
  }
  #banner3 .banner-box:nth-child(2){
-  background-image: url(/img/banner/b4.jpg);
+  background-image: url("../img/banner/b4.jpg");
 
  }
  #banner3 .banner-box:nth-child(3){
-  background-image: url(/img/banner/b18.jpg);
+  background-image: url("../img/banner/b18.jpg");
 
  }
 
@@ -410,7 +413,7 @@ justify-content:center;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image:url(/img/banner/b14.png);
+  background-image:url("../img/banner/b14.png");
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-position: 20% 30%;
